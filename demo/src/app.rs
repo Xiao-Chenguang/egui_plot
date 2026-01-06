@@ -82,7 +82,7 @@ impl DemoGallery {
                 egui::widgets::global_theme_preference_buttons(ui);
 
                 ui.add_space(16.0);
-                ui.hyperlink_to(format!("{GITHUB} egui_plot on GitHub"), GITHUB_URL);
+                ui.hyperlink_to(format!("{GITHUB} egui_plot by CG"), GITHUB_URL);
             });
         });
     }
